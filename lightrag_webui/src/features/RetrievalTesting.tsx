@@ -204,6 +204,11 @@ export default function RetrievalTesting() {
         actualQuery = query
       }
 
+      if (actualQuery.trim().length < 3) {
+        setInputError(t('retrievePanel.retrieval.queryTooShort', 'Query must be at least 3 characters long'))
+        return
+      }
+
       // Clear error message
       setInputError('')
 

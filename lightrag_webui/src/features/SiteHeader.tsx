@@ -41,6 +41,9 @@ function TabsNavigation() {
         <NavigationTab value="documents" currentTab={currentTab}>
           {t('header.documents')}
         </NavigationTab>
+        <NavigationTab value="chat" currentTab={currentTab}>
+          {t('header.chat', 'Chat')}
+        </NavigationTab>
         <NavigationTab value="knowledge-graph" currentTab={currentTab}>
           {t('header.knowledgeGraph')}
         </NavigationTab>

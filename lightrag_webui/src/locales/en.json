@@ -8,6 +8,7 @@
   },
   "header": {
     "documents": "Documents",
+    "chat": "Chat",
     "knowledgeGraph": "Knowledge Graph",
     "retrieval": "Retrieval",
     "api": "API",
@@ -413,7 +414,8 @@
       "placeholder": "Enter your query (Support prefix: /<Query Mode>)",
       "error": "Error: Failed to get response",
       "queryModeError": "Only supports the following query modes: {{modes}}",
-      "queryModePrefixInvalid": "Invalid query mode prefix. Use: /<mode> [space] your query"
+      "queryModePrefixInvalid": "Invalid query mode prefix. Use: /<mode> [space] your query",
+      "queryTooShort": "Query must be at least 3 characters long"
     },
     "querySettings": {
       "parametersTitle": "Parameters",
